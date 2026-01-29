@@ -28,9 +28,9 @@ def write_file(path, text):
     path:文件的路径。
     text:你想在文件上写的东西。
     """
-    file = open(path,'a',encoding = 'utf-8')
-    file.write(text)
-    file.close()
+    f_myfile = open(path,'a',encoding = 'utf-8')
+    f_myfile.write(text)
+    f_myfile.close()
 
 def read_file(path):
     """
