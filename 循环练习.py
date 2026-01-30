@@ -30,7 +30,7 @@ def my_print_2(list1):
 4）for循环的for必须写在函数下面的四个空格下面，也可以直接敲Tab，但是不要混用Tab和四个空格。
 
 四、python代码的运行方法：
-1） 在python中想运行代码可以直接点小箭头，也可以右键点击Run Python，然后再点击Run Python fine in Terminal。
+1） 在python中想运行代码可以直接点小箭头，如果不行可以右键点击Run Python，然后再点击Run Python fine in Terminal。
 '''
 
 def my_print_3(list2):
@@ -96,3 +96,4 @@ if __name__ == '__main__':
     list2=[12,14,84,33]
     # 5. 一样设定一个变量传刚刚写的list2的东西，尽量不要写a。        
     a = my_print_3(list2)
+
